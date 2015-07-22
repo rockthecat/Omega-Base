@@ -1,0 +1,534 @@
+body {
+        font-size: 14px;
+        color: #000;
+        background-color: #FFF;
+        font-family: Arial, Serif;
+        margin-top: 0px;
+}
+
+a {
+	color: #fff;
+        text-decoration: none;
+}
+
+a:hover {
+	color: #88f;
+        text-decoration: none;
+}
+
+img {
+	border: none;
+}
+
+
+button {
+    border-radius: 8px;
+    background: #eee;
+    border-color: #ccc;
+}
+
+#errormsg {
+    border: #A33 solid 1px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    overflow: visible;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+ 
+}
+
+.erroricon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+
+
+.blue {
+	color: #008;
+}
+
+.data {
+    width: 100%;
+
+    font-size: 13px;
+    border: 1px solid #aaa;
+    border-spacing: 0px;
+    border-radius: 8px;
+}
+
+.data th {
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.data tr:hover td {
+	background-color: #ccf;
+	
+}
+
+.data a {
+    color: #008;
+}
+
+.data td  {
+    border-top: 1px solid #aaa;
+    border-bottom: none;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+
+input, select, textarea, .error {
+	border: 1px solid #ccc;
+        background-color: #fff;
+        width: 200px;
+        height: 18px;
+        border-radius: 8px;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+
+select {
+    width: 210px;
+}
+
+#div_main {
+    width: 100%;
+    margin: auto;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    overflow: hidden;
+}
+
+.content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.btn, .btn:hover {
+    width: 60px;
+}
+
+.btnbig, .btnbig:hover {
+    width: 160px;
+}
+
+.chk, .chk:hover {
+    width: 10px;
+    margin-left: 0px;
+}
+
+.radio, .radio:hover {
+    width: auto;
+    
+}
+
+.txt, .txterror {
+    width: 99%;
+    margin: auto;
+    height: 600px;
+}
+
+.txterror {
+    border: #A33 solid 1px;
+    background: #fff0ff;
+    
+}
+
+.search, .search:hover {
+	background: transparent url(images/lupa.png) no-repeat;
+        border: none;
+        width: 21px;
+        height: 21px;
+}
+
+.ck a {
+	color: #008;
+}
+
+.ck a:hover {
+	color: #88f;
+        text-decoration: none;
+}
+
+.gray {
+	color: #aaa;
+}
+
+.title {
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+
+
+.boxdialog {
+    border: 1px solid #aaa;    
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
+    width: 205px;
+
+}
+
+.boxdialog a {
+    color: #22f;
+}
+
+.boxdialog img {
+    max-width: 200px;
+}
+
+
+
+.box {
+    background: #fff;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    overflow: visible;
+}
+
+.boxframe {
+    border: none;
+    height: 99%;
+    overflow: visible;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+.boxframe iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.boxtitle {
+    background: #000;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    overflow: visible;
+}
+
+.boxtitle img {
+    margin-top: 2px;
+    width: 16px;
+}
+
+.total {
+    border: none;
+    width: 100%;
+    height: 99%;
+    overflow: hidden;
+    
+}
+
+.total iframe {
+    overflow: auto;
+    width: 96%;
+    margin: auto;
+    height: 99%;
+    background: #fff;
+    border: 1px solid #aaa;    
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+}
+
+
+
+.total span {
+    float: left;
+    margin-right: 5px;
+}
+
+
+
+.panel {
+    float: left;
+    display: inline;
+    margin-right: 15px;
+   
+}
+
+
+.panelend {
+    clear: both;
+}
+
+.imgchoose {
+    width: 150px;
+    vertical-align: top;
+}
+
+
+
+
+.icon {
+   width: 16px;
+   height: 16px;
+}
+
+
+.faixacima, .faixabaixo {
+    background: #000;
+    height: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    overflow: visible;
+    width: 99%;
+   
+}
+
+
+.faixacima {
+    margin-bottom: 15px;
+    position: fixed;
+    margin-top: 0px;
+}
+
+.faixaacimagap {
+    height: 32px;
+    width: 2px;
+}
+
+.faixabaixo {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.faixacima img, .faixabaixo img {
+    height: 28px;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.menu {
+    display: inline;
+    color: #fff;
+}
+
+.menu img {
+    width: 14px;
+    height: 14px;
+}
+
+.menu ul {
+    display: none;
+    
+}
+.menu:hover ul {
+    background: #000;
+    border-radius: 8px;
+    padding: 10px;
+    top: 0px;
+    right: 0px;
+    display: block;
+    position: absolute;
+    border: none;
+}
+
+
+.menu:hover ul li {
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px #888 solid;
+}
+
+.menu:hover ul li:hover label {
+    color: #88f;
+    /*font-weight: bold;*/
+    
+}
+
+
+.faixacima .menu {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}
+
+.file {
+    width: 100%;
+    height: 300px;
+    border: none;
+    overflow: auto;
+}
+
+.lista, .lista li {
+    margin-left: 0px;
+}
+
+.lista a {
+    color: #44f;
+}
+
+.titulo1 {
+    font-family: Comic Sans, Verdana;
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.titulo1 ul {
+    padding-left: 15px;
+}
+
+
+.smallbox {
+    display: inline;
+}
+
+#img_captcha {
+    width: 200px;
+}
+
+.rightbox {
+    float: right;
+    display: inline;
+    margin-right: 15px;
+}
+
+.faixacima .rightbox {
+    position: relative;
+    top: 4px;
+}
+.rightbox div, .rightbox form {
+    display: inline;
+    margin-left: 5px;
+}
+
+
+
+.bigtext {
+    overflow: inherit; 
+    font-family: Mukti Narrow; 
+    font-size: 17px; 
+    color: #000000; 
+    font-weight: bold; 
+    font-style: italic; 
+    text-decoration: none;
+}
+
+.imgemblem {
+    width: 140px;
+    height: 90px;
+}
+
+.error {
+    border: #A33 solid 1px;
+    background: #fff0ff;
+}
+
+
+.rotulo, .rotulobig a, .rotulobig div {
+    /*
+    display: inline;
+    margin: 5px;
+    margin-right: 5px;
+    background: #ddf;
+    float: left;
+    border-radius: 5px;
+    padding: 3px;
+    */
+    display: inline;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 8px;
+    float: left;
+    width: 64px;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.rotulobig {
+    margin-bottom: 3px;
+}
+
+.rotulo:hover {
+    background: #ddf;
+}
+
+.rotulobig a:hover, rotulobig div:hover {
+    background: #ddf;
+    border-radius: 5px;
+}
+
+.rotulo .icon {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    
+}
+
+.rotulo a {
+    color: #22f;
+    text-align: center;
+
+}
+
+.rotulo .small {
+    float: right;
+   
+
+}
+
+.rotulobig a {
+    font-size: 14px;    
+    color: #22f;
+    font-weight: bold;
+    width: 96px;
+}
+
+.rotulobig div {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    width: 96px;
+}
+
+.total .rotulobig {
+    overflow: hidden;
+    border: none;
+    width: 96%;
+    margin: auto;
+    padding-left: 10px;
+}
+
+.rotuloclear {
+    clear: both;
+}
+
+.small {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+}
+
+.highres {
+    
+}

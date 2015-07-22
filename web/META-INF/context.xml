@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/omegabase">
+  <Resource auth="Container" defaultAutoCommit="false" driverClassName="org.postgresql.Driver" logAbandoned="true" maxActive="20" maxWait="10000" minIdle="10" name="jdbc/Prisma" password="eca" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/omegabase" username="omegabase" validationQuery="SELECT 1"/>
+</Context>

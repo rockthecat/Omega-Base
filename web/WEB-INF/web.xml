@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>Omega Base</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.htm</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>default.html</welcome-file>
+        <welcome-file>default.htm</welcome-file>
+        <welcome-file>default.jsp</welcome-file>
+    </welcome-file-list>
+    <!--
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/Prisma</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+    -->
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error.jsp?error=404</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error.jsp?error=500</location>
+    </error-page>
+    <session-config>
+        <!--Session timeout, in minutes -->
+        <session-timeout>600</session-timeout>
+    </session-config>
+    <!--
+    <servlet>
+        <description/>
+        <display-name>Download</display-name>
+        <servlet-name>Download</servlet-name>
+        <servlet-class>org.omegabase.CKDownload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Download</servlet-name>
+        <url-pattern>/userfiles/*</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description/>
+        <display-name>OmegaSyncroUp</display-name>
+        <servlet-name>OmegaSyncroUp</servlet-name>
+        <servlet-class>org.omegabase.SyncroWs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OmegaSyncroUp</servlet-name>
+        <url-pattern>/restrict/post/OmegaSyncro</url-pattern>
+    </servlet-mapping>
+   
+    <filter>
+        <display-name>Restrict</display-name>
+        <filter-name>Restrict</filter-name>
+        <filter-class>org.omegabase.Restrict</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Restrict</filter-name>
+        <url-pattern>/restrict/*</url-pattern>
+    </filter-mapping>
+    
+    <filter>
+        <display-name>Installation</display-name>
+        <filter-name>Installation</filter-name>
+        <filter-class>org.omegabase.Install</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Installation</filter-name>
+        <url-pattern>/install/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <description/>
+        <display-name>CKUpload</display-name>
+        <servlet-name>CKUpload</servlet-name>
+        <servlet-class>org.omegabase.CKUpload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CKUpload</servlet-name>
+        <url-pattern>/ck_save</url-pattern>
+    </servlet-mapping>
+    -->
+    <!-- A servlet example
+
+  <servlet>
+    <description></description>
+    <display-name>MyServlet</display-name>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>mypackage.MyClass</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/myservlet/*</url-pattern>
+  </servlet-mapping>
+-->
+    <!--A filter example
+
+  <filter>
+    <display-name>MyFilter</display-name>
+    <filter-name>MyFilter</filter-name>
+    <filter-class>mypackage.MyFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>MyFilter</filter-name>
+    <url-pattern>/restrict/*</url-pattern>
+  </filter-mapping>
+-->
+</web-app>

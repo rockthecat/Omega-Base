@@ -1,0 +1,269 @@
+
+body {
+	font: 12px Arial, serif;
+}
+
+.xtoolbar {
+	background: #ddd;
+	position: absolute;
+}
+
+.xbar {
+	background-image: url(../../bar.png);
+        background-repeat: repeat-x;
+	position: absolute;
+
+}
+
+.xmenu {
+	background: #ddd;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: visible;
+	border: 1px solid #999;
+}
+
+.xmenu a {
+	color: #000;
+}
+
+.xmenu div {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+
+.xmenu div:hover {
+	background-color: #88f;
+
+}
+
+.xmenu a div:hover {
+	color: #eee;
+}
+
+.xtouchpad_menu {
+	background: #ddd;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	overflow: visible;
+	font: 32px Arial, serif;
+	border: 2px solid #999;	
+}
+
+
+.xtouchpad_menu a {
+	color: #000;
+}
+
+.xtouchpad_menu div {
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+
+.xtouchpad_menu div:hover {
+	background-color: #88f;
+
+}
+
+.xtouchpad_menu a div:hover {
+	color: #eee;
+}
+
+
+a {
+	color: #008;
+        text-decoration: none;
+}
+
+a:hover {
+	color: #88f;
+        text-decoration: none;
+}
+
+.xwindow {
+	background: #ddd;
+	position: absolute;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;	
+	border-right: 1px solid #000;
+}
+
+.xinactive_window {
+	background: #ddd;
+	position: absolute;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;	
+	border-right: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+
+.xtitlebar {
+	background: #000;
+	color: #fff;
+	height: 16px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+
+.xwinicon {
+	background-image: url(../../icon8x8.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-left: 2px;
+}
+
+.xwintitle {
+	font-size: 14px;
+	margin-left: 4px;
+	float: left;
+	height: 16px;
+}
+
+.xinactive_titlebar {
+	background: #bbb;
+	color: #88f;
+	height: 16px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.xclose {
+	background-image: url(xclose.png);
+	background-color: #000;
+	background-repeat: no-repeat;
+	border: none;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;
+	margin-top: 2px;
+	background-size: 11px 11px;
+}
+
+.xtouchpad_close {
+	background-image: url(xclose.png);
+	background-color: #000;
+	border: none;
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-right: 4px;
+	margin-top: 0px;
+	background-size: 16px 16px;
+}
+
+
+.xinactive_close {
+	background-image: url(xclose.png);
+	background-color: #bbb;
+	border: none;
+	background-repeat:  no-repeat;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;
+	margin-top: 1px;
+	background-size: 11px 11px;
+}
+
+
+.xminimize {
+	background-image: url(xminimize.png);
+	background-color: #000;
+	border: none;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;	
+	margin-top: 2px;
+	background-size: 11px 11px;
+}
+
+.xtouchpad_minimize {
+	background-image: url(xminimize.png);
+	background-color: #000;
+	border: none;
+	width: 16px;
+	height: 16px;
+	float: right;
+	margin-right: 24px;	
+	margin-top: 0px;
+	background-size: 16px 16px;
+}
+
+
+.xinactive_minimize {
+	background-image: url(xminimize.png);
+	background-color: #bbb;
+	border: none;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;	
+	margin-top: 1px;
+	background-size: 11px 11px;
+}
+
+
+.xmaximize {
+	background-image: url(xmaximize.png);
+	background-color: #000;
+	border: none;
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;
+	margin-top: 2px;
+	background-size: 11px 11px;
+}
+
+.xinactive_maximize {
+	background-image: url(xmaximize.png);
+	background-color: #bbb;
+	background-repeat: no-repeat;
+	border: none;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;
+	margin-top: 1px;
+	background-size: 11px 11px;
+}
+
+.xdimensione {
+	background-image: url(xdimensione.png);
+	background-color: #000;
+	background-repeat: no-repeat;
+	border: none;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;	
+	margin-top: 2px;
+	background-size: 11px 11px;
+}
+
+.xinactive_dimensione {
+	background-image: url(xdimensione.png);
+	background-color: #bbb;
+	background-repeat: no-repeat;
+	border: none;
+	width: 14px;
+	height: 14px;
+	float: right;
+	margin-right: 4px;	
+	margin-top: 1px;
+	background-size: 11px 11px;
+}
+
+
+
